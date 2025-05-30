@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #eee;
+}
+
+canvas {
+  background: #000;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #555;
+}
+
+#upload-label {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #444;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#upload-label:hover {
+  background-color: #666;
+}
+
+#score {
+  font-size: 24px;
+  margin: 10px;
+}
